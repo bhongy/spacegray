@@ -330,7 +330,7 @@
         "settings": ["overlay_scroll_bars"],
         "attributes": ["dark"],
         // "layer0.texture": "",
-        "layer0.tint": [79, 91, 102] // 02
+        "layer0.tint": [80, 80, 103] // 02
 
     },
     // Overlay light horizontal puck (for dark content)
@@ -339,7 +339,7 @@
         "settings": ["overlay_scroll_bars"],
         "attributes": ["horizontal","dark"],
         // "layer0.texture": "",
-        "layer0.tint": [79, 91, 102] // 02
+        "layer0.tint": [80, 80, 103] // 02
     },
 
 //
@@ -433,7 +433,7 @@
     {
         "class": "label_control",
         "parents": [{"class": "status_bar"}],
-        "color": [79, 91, 102] // 02
+        "color": [80, 80, 103] // 02
     },
 
 //
@@ -916,7 +916,7 @@
     {
         "class": "table_row",
         // "layer0.texture": "",
-        "layer0.tint": [79, 91, 103], // 02
+        "layer0.tint": [80, 80, 103], // 02
         "layer0.opacity": 0,
         "layer0.inner_margin": [3,1]
     },

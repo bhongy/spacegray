@@ -851,7 +851,7 @@
         "class": "quick_panel_row",
         // "layer0.texture": "",
         "layer0.tint": [19, 19, 24], // -01
-        "layer0.inner_margin": 8,
+        "layer0.inner_margin": 0,
         "layer0.opacity": 1
     },
     {
@@ -862,22 +862,22 @@
     },
     {
         "class": "quick_panel_label",
-        "match_fg": [192, 197, 206, 255], // 05
-        "selected_fg": [192, 197, 206, 255], // 05
-        "selected_match_fg": [239, 241, 245, 255] // 07
         "fg": [114, 113, 125], // ${line}
+        "match_fg": [192, 197, 206], // 05
+        "selected_fg": [192, 197, 206], // 05
+        "selected_match_fg": [239, 241, 245] // 07
     },
     {
         "class": "quick_panel_path_label",
-        "fg": [101, 115, 126, 255], // 03
-        "selected_fg": [101, 115, 126, 255], // 03
-        "selected_match_fg": [167, 173, 186, 255] // 04
+        "fg": [101, 115, 126], // 03
         "match_fg": [114, 113, 125], // ${line}
+        "selected_fg": [101, 115, 126], // 03
+        "selected_match_fg": [167, 173, 186] // 04
     },
     {
         "class": "quick_panel_score_label",
-        "fg": [101, 115, 126, 255], // 03
-        "selected_fg": [101, 115, 126, 255] // 03
+        "fg": [101, 115, 126], // 03
+        "selected_fg": [101, 115, 126] // 03
     },
 
 //
@@ -913,10 +913,10 @@
     },
     {
         "class": "auto_complete_label",
-        "match_fg": [192, 197, 206, 255], // 05
-        "selected_fg": [167, 173, 186, 255], // 03
-        "selected_match_fg": [192, 197, 206, 255] // 05
         "fg": [114, 113, 125], // ${line}
+        "match_fg": [192, 197, 206], // 05
+        "selected_fg": [167, 173, 186], // 03
+        "selected_match_fg": [192, 197, 206] // 05
     },
     {
         "class": "table_row",

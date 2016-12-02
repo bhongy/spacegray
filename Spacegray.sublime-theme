@@ -1,6 +1,11 @@
 [
 
 //
+// COLORS
+//
+// ${line} [114, 113, 125] - Heroku line number
+
+//
 // TABS (REGULAR)
 //
 
@@ -153,7 +158,7 @@
     {
         "class": "tab_label",
         "fade": true,
-        "fg": [90, 90, 108] // 03
+        "fg": [114, 113, 125] // ${line}
     },
     {
         "class": "tab_label",
@@ -512,7 +517,7 @@
     // Sidebar entry
     {
         "class": "sidebar_label",
-        "color": [90, 90, 108] // 03
+        "color": [114, 113, 125] // ${line}
     },
     {
         "class": "sidebar_label",
@@ -538,7 +543,7 @@
     {
         "class": "sidebar_label",
         "parents": [{"class": "tree_row","attributes": ["expandable"]}],
-        "color": [90, 90, 108] // 03
+        "color": [114, 113, 125] // ${line}
     },
     {
         "class": "sidebar_label",
@@ -857,17 +862,17 @@
     },
     {
         "class": "quick_panel_label",
-        "fg": [167, 173, 186, 255], // 04
         "match_fg": [192, 197, 206, 255], // 05
         "selected_fg": [192, 197, 206, 255], // 05
         "selected_match_fg": [239, 241, 245, 255] // 07
+        "fg": [114, 113, 125], // ${line}
     },
     {
         "class": "quick_panel_path_label",
         "fg": [101, 115, 126, 255], // 03
-        "match_fg": [167, 173, 186, 255], // 04
         "selected_fg": [101, 115, 126, 255], // 03
         "selected_match_fg": [167, 173, 186, 255] // 04
+        "match_fg": [114, 113, 125], // ${line}
     },
     {
         "class": "quick_panel_score_label",
@@ -908,10 +913,10 @@
     },
     {
         "class": "auto_complete_label",
-        "fg": [101, 115, 126, 255], // 03
         "match_fg": [192, 197, 206, 255], // 05
         "selected_fg": [167, 173, 186, 255], // 03
         "selected_match_fg": [192, 197, 206, 255] // 05
+        "fg": [114, 113, 125], // ${line}
     },
     {
         "class": "table_row",

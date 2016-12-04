@@ -809,7 +809,7 @@
         "class": "button_control",
         "attributes": ["pressed"],
         // "layer0.texture": "",
-        "layer0.tint": [19, 19, 24, 99] // ${dark-bg}
+        "layer0.opacity": 0.5
     },
 //
 // TEXT INPUT FIELD

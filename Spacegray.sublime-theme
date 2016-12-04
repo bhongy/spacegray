@@ -4,7 +4,6 @@
 // COLORS
 //
 // ${dark-bg} [19, 19, 24] - Sidebar
-// ${key} [132, 128, 173] - Heroku key (lavender) but less saturated
 // ${value} [166, 250, 98] - Heroku value (lime)
 // ${line} [114, 113, 125] - Heroku line number use for labels
 // ${line-selected} [43, 48, 59]
@@ -889,7 +888,7 @@
         "class": "quick_panel_path_label",
         "fg": [80, 80, 103], // ${muted}
         "match_fg": [114, 113, 125], // ${line}
-        "selected_fg": [132, 128, 173], // ${key}
+        "selected_fg": [114, 113, 125], // ${muted}
         "selected_match_fg": [199, 198, 201] // ${label-selected}
     },
     {

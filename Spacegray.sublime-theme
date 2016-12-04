@@ -82,7 +82,7 @@
         "class": "tab_close_button",
         "layer0.texture": "Theme - Spacegray/assets/close.png",
         "layer0.opacity": 0,
-        "layer0.tint": [101, 115, 126] // 03
+        "layer0.tint": [114, 113, 125], // ${line}
     },
     {
         "class": "tab_close_button",
@@ -166,7 +166,7 @@
     {
         "class": "tab_label",
         "fade": true,
-        "fg": [114, 113, 125] // ${line}
+        "fg": [114, 113, 125], // ${line}
     },
     {
         "class": "tab_label",
@@ -391,7 +391,7 @@
     // General labels
     {
         "class": "label_control",
-        "color": [101, 115, 126] // 03
+        "color": [114, 113, 125], // ${line}
     },
     // Text field labels
     {
@@ -402,8 +402,7 @@
     {
         "class": "label_control",
         "parents": [{"class": "button_control"}],
-        "font.bold": true,
-        "color": [150, 181, 180] // 0C
+        "font.bold": true
     },
 
 //
@@ -525,7 +524,7 @@
     // Sidebar entry
     {
         "class": "sidebar_label",
-        "color": [114, 113, 125] // ${line}
+        "color": [114, 113, 125], // ${line}
     },
     {
         "class": "sidebar_label",
@@ -551,7 +550,7 @@
     {
         "class": "sidebar_label",
         "parents": [{"class": "tree_row","attributes": ["expandable"]}],
-        "color": [114, 113, 125] // ${line}
+        "color": [114, 113, 125], // ${line}
     },
     {
         "class": "sidebar_label",
@@ -581,7 +580,7 @@
         "layer0.texture": "Theme - Spacegray/assets/close.png",
         "layer0.opacity": 0,
         "layer0.inner_margin": 0,
-        "layer0.tint": [101, 115, 126], // 03
+        "layer0.tint": [114, 113, 125], // ${line}
         "content_margin": [8,8]
     },
     {

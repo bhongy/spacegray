@@ -404,6 +404,11 @@
         "parents": [{"class": "button_control"}],
         "font.bold": true
     },
+    {
+        "class": "label_control",
+        "parents": [{"class": "button_control", "attributes": ["hover"]}],
+        "color": [199, 198, 201] // ${label-selected}
+    },
 
 //
 // TOOLTIP
@@ -804,7 +809,7 @@
         "class": "button_control",
         "attributes": ["pressed"],
         // "layer0.texture": "",
-        "layer0.tint": [28, 31, 38] // -00
+        "layer0.tint": [19, 19, 24, 99] // ${dark-bg}
     },
 //
 // TEXT INPUT FIELD

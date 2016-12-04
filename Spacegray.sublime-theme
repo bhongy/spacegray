@@ -7,9 +7,10 @@
 // ${key} [120, 115, 174] - Heroku key (purple)
 // ${value} [166, 250, 98] - Heroku value (lime)
 // ${line} [114, 113, 125] - Heroku line number use for labels
+// ${line-selected} [43, 48, 59]
 // ${muted} [80, 80, 103] - Heroku comment use for muted labels
-// ${selected-label} [199, 198, 201] - use for selected labels
-// ${selected-match} [248, 248, 248] - use for matched selected labels
+// ${label-selected} [199, 198, 201] - use for selected labels
+// ${label-selected-match} [248, 248, 248] - use for matched selected labels
 //
 
 //
@@ -62,7 +63,7 @@
         "class": "tab_control",
         "attributes": ["selected"],
         "layer0.texture": "",
-        "layer0.tint": [43, 48, 59] // 00
+        "layer0.tint": [43, 48, 59] // ${line-selected}
     },
     // Tab dirty state (close button hidden)
     {
@@ -170,7 +171,7 @@
     {
         "class": "tab_label",
         "parents": [{"class": "tab_control","attributes": ["hover"]}],
-        "fg": [199, 198, 201] // ${selected-label}
+        "fg": [199, 198, 201] // ${label-selected}
     },
     {
         "class": "tab_label",
@@ -303,7 +304,7 @@
         "class": "scroll_bar_control",
         "settings": ["overlay_scroll_bars"],
         // "layer0.texture": "",
-        "layer0.tint": [43, 48, 59], // 00
+        "layer0.tint": [43, 48, 59], // ${line-selected}
         "layer0.inner_margin": [0,5],
         "layer0.opacity": 0,
         "blur": false
@@ -360,7 +361,7 @@
 
     {
         "class": "sheet_container_control",
-        "layer0.tint": [43, 48, 59],
+        "layer0.tint": [43, 48, 59], // ${line-selected}
         "layer0.opacity": 1
     },
 
@@ -474,7 +475,7 @@
     {
         "class": "tree_row",
         // "layer0.texture": "",
-        "layer0.tint": [43, 48, 59], // 00
+        "layer0.tint": [43, 48, 59], // ${line-selected}
         "layer0.opacity": 0,
         "layer0.inner_margin": [1,1]
     },
@@ -555,7 +556,7 @@
     {
         "class": "sidebar_label",
         "parents": [{"class": "tree_row","attributes": ["hover"]}],
-        "color": [199, 198, 201] // ${selected-label}
+        "color": [199, 198, 201] // ${label-selected}
     },
     {
         "class": "sidebar_label",
@@ -865,21 +866,21 @@
         "class": "quick_panel_row",
         "attributes": ["selected"],
         // "layer0.texture": "",
-        "layer0.tint": [43, 48, 59], // 00
+        "layer0.tint": [43, 48, 59], // ${line-selected}
     },
     {
         "class": "quick_panel_label",
         "fg": [114, 113, 125], // ${line}
-        "match_fg": [199, 198, 201], // ${selected-label}
-        "selected_fg": [199, 198, 201], // ${selected-label}
-        "selected_match_fg": [248, 248, 248] // ${selected-match}
+        "match_fg": [199, 198, 201], // ${label-selected}
+        "selected_fg": [199, 198, 201], // ${label-selected}
+        "selected_match_fg": [248, 248, 248] // ${label-selected-match}
     },
     {
         "class": "quick_panel_path_label",
         "fg": [80, 80, 103], // ${muted}
         "match_fg": [114, 113, 125], // ${line}
         "selected_fg": [120, 115, 174], // ${key}
-        "selected_match_fg": [199, 198, 201] // ${selected-label}
+        "selected_match_fg": [199, 198, 201] // ${label-selected}
     },
     {
         "class": "quick_panel_score_label",
@@ -901,7 +902,7 @@
         "class": "mini_quick_panel_row",
         "attributes": ["selected"],
         // "layer0.texture": "",
-        "layer0.tint": [43, 48, 59] // 00
+        "layer0.tint": [43, 48, 59] // ${line-selected}
     },
 
 //
@@ -921,14 +922,14 @@
     {
         "class": "auto_complete_label",
         "fg": [114, 113, 125], // ${line}
-        "match_fg": [199, 198, 201], // ${selected-label}
-        "selected_fg": [199, 198, 201], // ${selected-label}
-        "selected_match_fg": [248, 248, 248] // ${selected-match}
+        "match_fg": [199, 198, 201], // ${label-selected}
+        "selected_fg": [199, 198, 201], // ${label-selected}
+        "selected_match_fg": [248, 248, 248] // ${label-selected-match}
     },
     {
         "class": "table_row",
         // "layer0.texture": "",
-        "layer0.tint": [43, 48, 59], // 00
+        "layer0.tint": [43, 48, 59], // ${line-selected}
         "layer0.opacity": 0,
         "layer0.inner_margin": [3,1]
     },

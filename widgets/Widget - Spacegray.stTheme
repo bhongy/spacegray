@@ -14,17 +14,19 @@
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#1C1F26</string>
+				<string>#131318</string>
 				<key>caret</key>
-				<string>#c0c5ce</string>
+				<string>#f8f8f0</string>
 				<key>foreground</key>
-				<string>#c0c5ce</string>
+				<string>#c8c7d5</string>
 				<key>invisibles</key>
-				<string>#65737e</string>
+				<string>#3b3a32</string>
 				<key>selection</key>
-				<string>#4f5b66</string>
+				<string>#7873ae</string>
+				<key>selectionForeground</key>
+				<string>#ffffff</string>
 				<key>selectionBorder</key>
-				<string>#4f5b6600</string>
+				<string>#7873ae00</string>
 			</dict>
 		</dict>
 	</array>

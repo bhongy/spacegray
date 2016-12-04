@@ -4,6 +4,7 @@
 // COLORS
 //
 // ${line} [114, 113, 125] - Heroku line number
+//
 
 //
 // TABS (REGULAR)
@@ -475,7 +476,7 @@
     {
         "class": "tree_row",
         "attributes": ["selected"],
-        "layer0.opacity": 1
+        "layer0.opacity": 0.5
     },
     // Sidebar heading
     {

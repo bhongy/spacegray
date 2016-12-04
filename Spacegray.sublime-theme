@@ -474,7 +474,7 @@
     {
         "class": "tree_row",
         // "layer0.texture": "",
-        "layer0.tint": [104, 104, 129], // 01
+        "layer0.tint": [43, 48, 59], // 00
         "layer0.opacity": 0,
         "layer0.inner_margin": [1,1]
     },
@@ -482,7 +482,7 @@
     {
         "class": "tree_row",
         "attributes": ["selected"],
-        "layer0.opacity": 0.5
+        "layer0.opacity": 1
     },
     // Sidebar heading
     {

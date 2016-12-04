@@ -821,6 +821,12 @@
         // "layer0.texture": "",
         "layer0.tint": [19, 19, 24], // ${dark-bg}
         "layer0.opacity": 1,
+        "content_margin": 6
+    },
+
+    {
+        "class": "text_line_control",
+        "parents": [{ "class": "panel_control" }],
         "content_margin": 3
     },
 

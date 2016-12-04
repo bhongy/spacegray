@@ -922,13 +922,13 @@
         "class": "auto_complete_label",
         "fg": [114, 113, 125], // ${line}
         "match_fg": [199, 198, 201], // ${selected-label}
-        "selected_fg": [167, 173, 186], // 03
-        "selected_match_fg": [199, 198, 201] // ${selected-label}
+        "selected_fg": [199, 198, 201], // ${selected-label}
+        "selected_match_fg": [248, 248, 248] // ${selected-match}
     },
     {
         "class": "table_row",
         // "layer0.texture": "",
-        "layer0.tint": [80, 80, 103], // ${muted}
+        "layer0.tint": [43, 48, 59], // 00
         "layer0.opacity": 0,
         "layer0.inner_margin": [3,1]
     },
